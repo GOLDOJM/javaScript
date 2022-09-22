@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+
+
+</head>
+<body>
+<h1>
+    제이쿼리를 이용한 태그제어
+</h1>
+<style>
+    div#displayArea{
+        width:200px;
+        height:200px;
+        border:5px double #6699FF;
+    }
+</style>    
+<div id ="div#displayArea"> 이곳의 내용 변경</div>
+    <button>표시</button>
+
+    <script src="lib/jquery-3.6.1.js"></script>
+
+<script>
+$(document).ready(function(){
+   $("button").click(function(){
+    $("#displayArea").html("<img src = htpp/piscum.photo/200\" alt=\"그림\">");
+   })
+  
+
+});
+
+
+
+
+</script>
+</body>
+
+
+</html>
